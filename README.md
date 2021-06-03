@@ -5,8 +5,16 @@ Graduate Research Assistant in BigData Lab at Kookmin University. <br>
 Prior to Kookmin University, I obtained a Bachelor of Engineering in Computer Science from Kookmin University in Feb 2021 <br>
 
 ## Interest
-BigData Engineering based on Cloud/Distributed Computing
+BigData Engineering based on Cloud/Distributed Computing <br>
 
+## My Stats
+<div align=center>
+  
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=unhochoi&show_icons&count_private=true&theme=vue-dark)](https://github.com/unhochoi/github-readme-stats)
+
+</div>
+
+## Contact
 <div align=center>
 
 [![Tech Blog Badge](http://img.shields.io/badge/-Tec%20blog-1877f2?style=flat-square&logo=amazon&link=https://wooono.tistory.com)](https://wooono.tistory.com) 
