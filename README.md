@@ -7,13 +7,6 @@ Prior to Kookmin University, I obtained a Bachelor of Engineering in Computer Sc
 ## Interest
 BigData Engineering based on Cloud/Distributed Computing <br>
 
-## My Stats
-<div align=center>
-  
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=unhochoi&show_icons&count_private=true&theme=vue-dark)](https://github.com/unhochoi/github-readme-stats)
-
-</div>
-
 ## Contact
 <div align=center>
 
