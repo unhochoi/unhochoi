@@ -1,13 +1,16 @@
-## Information
-Unho Choi <br>
-Seoul, Republic of Korea. <br>
-Graduate Research Assistant in BigData Lab at Kookmin University. <br>
-Prior to Kookmin University, I obtained a Bachelor of Engineering in Computer Science from Kookmin University in Feb 2021 <br>
+### Information
+- Unho Choi
+- Seoul, Republic of Korea
 
-## Interest
-BigData Engineering based on Cloud/Distributed Computing <br>
+### Work Experience & Education
+- Kookmin University, Master of Computer Science (2021.03 ~ Current)
+- Kookmin University, Bachelor of Computer Science (2017.03 ~ 2021.02)
 
-## Contact
+### Interest
+- BigData Engineering
+- Cloud / Distributed Computing
+
+### Contact
 <div align=center>
 
 [![Tech Blog Badge](http://img.shields.io/badge/-Tec%20blog-1877f2?style=flat-square&logo=Telegraph&link=https://wooono.tistory.com)](https://wooono.tistory.com) 
