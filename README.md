@@ -1,6 +1,6 @@
 ### Information
 
-- Unho Choi is is a graduate student in the Department of Computer Science at Kookmin University.
+- Unho Choi is a graduate student in the Department of Computer Science at Kookmin University.
 - His research topics are big data engineering, large-scale distributed computing resource management, and cloud computing.
 
 ### Education
