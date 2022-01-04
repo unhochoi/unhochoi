@@ -14,7 +14,7 @@
 - Unho Choi has few industry experiecnes as a software development engineer and researcher.
 - Kookmin University BigData Lab. Seoul. Korea (2020.02 ~ ing) **Research Assistant Student**
     - His research topics are big data engineering, large-scale distributed computing resource management, and cloud computing.
-- Samsung Electronics. Suwon. Korea (2021.04 ~ 2021.05) **Teaching Assistant**
+- Samsung Electronics. Suwon. Korea (2021.05 ~ 2021.05) **Teaching Assistant**
     - He developed cloud-native deep learning inference applications (classic, containerized, serverless) and conducted a cloud architect training course.
 - Goboogie. Seoul. Korea (2019.12 ~ 2020.02) **Intern**
     - Team : Service Development
