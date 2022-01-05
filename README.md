@@ -55,5 +55,5 @@
 
 - GMail : yms04089@kookmin.ac.kr
 - GitHub : [https://github.com/unhochoi](https://github.com/unhochoi)
-- Tec Blog : [https://wooono.tistory.com/](https://wooono.tistory.com/)
+- Tec Blog : [https://wooono.tistory.com/pages/About](https://wooono.tistory.com/pages/About)
 - LinkedIn : [https://www.linkedin.com/in/unho-choi-9593871b4/](https://www.linkedin.com/in/unho-choi-9593871b4/)
