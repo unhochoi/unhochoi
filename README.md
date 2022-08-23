@@ -45,32 +45,30 @@
 ### Experience
 
 - **국민대학교 분산 데이터 처리 시스템 연구실 연구 조교 (2020/02 ~ ing)**
-    - 담당업무 : 빅데이터 엔지니어링, 분산 처리, 클라우드 컴퓨팅, 머신러닝 연구
+    - 빅데이터 엔지니어링, 분산 처리, 클라우드 컴퓨팅, 머신러닝 연구
 
-- **국민대학교 비이공계 학생 대상 프로그래밍 교육 조교 (2021/3 ~ ing)**
-    - 담당업무
-        - 비이공계 학생을 대상으로 석사 과정 매 학기 프로그래밍 교육 수업 진행
-            - 파이썬 기초 실습
-            - 공공 데이터(COVID 19, etc)를 사용한 데이터분석 기초 실습
-            - Teachable Machine 을 활용한 인공지능 기초 실습
+- **국민대학교 비이공계 학생 대상 프로그래밍 교육 조교 (2021/3 ~ 2022/06)**
+    - 비이공계 학생을 대상으로 석사 과정 매 학기 프로그래밍 교육 수업 진행
+        - 파이썬 기초 실습
+        - 공공 데이터(COVID 19, etc)를 사용한 데이터분석 기초 실습
+        - Teachable Machine 을 활용한 인공지능 기초 실습
 
 - **삼성전자 클라우드 아키텍트 특강 교육 조교 (2021/03 ~ 2021/05)**
-    - 담당업무
-        - 삼성 개발자분들을 대상으로 하는 3~5일간의 특강에 교육 조교로 참여
-        - 고가용성 및 확장성을 만족하는 클라우드 네이티브 딥러닝 추론 애플리케이션을 Classic, Container, Serverless 버전 별로 개발
-        - 실습 보조 및 질문 처리
+    - 삼성 개발자분들을 대상으로 하는 3~5일간의 특강에 교육 조교로 참여
+    - 고가용성 및 확장성을 만족하는 클라우드 네이티브 딥러닝 추론 애플리케이션을 Classic, Container, Serverless 버전 별로 개발
+    - 실습 보조 및 질문 처리
 
 - **고부기엔터테이먼트 인턴 (2019/12 ~ 2020/02)**
-    - 담당업무 : 프론트 엔드 개발, 서비스 유지보수, 신규 서비스 기획, 서비스 QA
+    - 프론트 엔드 개발, 서비스 유지보수, 신규 서비스 기획, 서비스 QA
 
 - **위크앤데이 인턴 (2019/06 ~ 2019/08)**
-    - 담당업무 : 프론트 엔드 개발
+    - 프론트 엔드 개발
 
 ---
 
 ### Projects
 
-- **효율적인 대용량 분산 처리를 위한 Spark 패키지 최적화 (2021/03 ~ ing)**
+- **효율적인 대용량 분산 처리를 위한 Spark 패키지 최적화 (2021/03 ~ 2022/08)**
     - **목표**
         - Spark 의 Sparse Matrix Multiplication(SPMM) 패키지를 최적화함으로써, 행렬 곱셈에 따른 최적의 SPMM 을 제공해주는 서비스 구현
     - **기여 내용**
@@ -79,10 +77,12 @@
         - 학습된 DNN 회귀 모델을 사용해, 행렬 곱셈 입력에 따른 최적의 SPMM 을 추천해주는 마이크로서비스 구현
         - 구현한 마이크로서비스를 Spark 패키지 내부에 적용 및 배포
     - **결과**
-        - 실제 그래프 데이터셋을 사용해 행렬 곱셈을 진행했을 때, 기존 Spark 의 SPMM Latency보다 약 2.2배 향상된 결과를 얻음
+        - 실제 그래프 데이터셋을 사용해 행렬 곱셈을 진행했을 때, 기존 Spark의 SPMM Latency보다 약 2.2배 향상된 결과를 얻음
+        - "Dense or Sparse : Elastic SPMM Implementation for Optimal Big-Data Processing"라는 논문으로 발전하여, IEEE Transactions on Big Data, NO. 1, AUGUST, 2022에 게재함
     - **주사용기술**
         - Spark, Tensorflow, Docker, AWS (ECR, EMR, API Gateway, Lambda)
     - **링크**
+        - [https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE](https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE)
         - https://github.com/ddps-lab/dos
 
 - **엣지 가속기 모니터링 시스템 (2021/07 ~ 2021/12)**
@@ -91,10 +91,11 @@
     - **기여 내용**
         - 엣지 가속기(NVIDIA Jetson TX1, TX2, Nano, Xavier, Google Edge TPU) 별 하드웨어 세부 정보를 추출 및 전처리하는 컨테이너 이미지 구현
     - **결과**
-        - "Accelerator-Aware Kubernetes Scheduler for DNN Tasks on Edge Computing Environment"라는 제목의 논문으로 발전하여, The Sixth ACM/IEEE Symposium on Edge Computing (SEC 2021 Poster session)에 게재됨
+        - "Accelerator-Aware Kubernetes Scheduler for DNN Tasks on Edge Computing Environment"라는 논문으로 발전하여, The Sixth ACM/IEEE Symposium on Edge Computing (SEC 2021 Poster session)에 게재함
     - **주사용기술**
         - Linux, Docker, Kubernetes
     - **링크**
+        - [https://ieeexplore.ieee.org/document/9709001](https://ieeexplore.ieee.org/document/9709001)
         - https://github.com/unhochoi/edge-accelerator-monitor
 
 - **클라우드 기반의 딥러닝 추론 애플리케이션 (2021/03 ~ 2021/05)**
@@ -122,10 +123,10 @@
             - 최종적으로, 해당 1xn 벡터에서 실제로 평가하지 않은 아이템 항목을 추출하여, 가장 평가 점수가 높을 것으로 예상되는 아이템을 k개 선정하여 반환
             - 선정된 k개의 아이템은, 해당 사용자가 관심을 가질 가능성이 가장 높은 것으로 판단될 수 있으며, 이를 활용하여 개인 맞춤형 서비스 제공할 수 있음
     - **결과**
-        - "서버리스 컴퓨팅 기반의 확장 가능한 추천 시스템”라는 제목의 논문으로 발전하여, 한국 정보과학회 학술발표 논문집(2020/12, 16-18, KIISE)에 게재됨
+        - "서버리스 컴퓨팅 기반의 확장 가능한 추천 시스템”라는 논문으로 발전하여, 한국 정보과학회 학술발표 논문집(2020/12, 16-18, KIISE)에 게재함
     - **주사용기술**
         - AWS (CloudWatch, RDS, Lambda, S3, API Gateway)
-    - 링크
+    - **링크**
         - [https://github.com/unhochoi/scalable-recommender-system-based-on-serverless-computing/blob/main/scalable-recommender-system-based-on-serverless-computing.pdf](https://github.com/unhochoi/scalable-recommender-system-based-on-serverless-computing/blob/main/scalable-recommender-system-based-on-serverless-computing.pdf)
 
 - **이벤트 로그 분석 서비스 (2020/03 ~ 2020/06)**
@@ -140,7 +141,7 @@
         - 해당 프로젝트는 성공적으로 마무리되었으나, 수상은 하지 못했음
     - **주사용기술**
         - ELK, Django, Tensorflow
-    - 링크
+    - **링크**
         - https://github.com/unhochoi/capstone-2020-7
 
 ---
@@ -148,13 +149,15 @@
 ### Publications
 
 - **International**
+    - **Unho Choi** and Kyungyong Lee, “Dense or Sparse : Elastic SPMM Implementation for Optimal Big-Data Processing”, IEEE Transactions on Big Data, NO. 1, AUGUST, 2022
+        - [https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE](https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE)
+        - https://github.com/ddps-lab/dos
     - Jungae Park, **Unho Choi**, Seungwoo Kum, Jaewon Moon, and Kyungyong Lee, ‘Accelerator-Aware Kubernetes Scheduler for DNN Tasks on Edge Computing Environment’, The Sixth ACM/IEEE Symposium on Edge Computing (SEC 2021 Poster session)
-    - 링크
-        - [https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf](https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf)
+        - [https://ieeexplore.ieee.org/document/9709001](https://ieeexplore.ieee.org/document/9709001)
+        - https://github.com/unhochoi/edge-accelerator-monitor
 
 - **Domestic**
     - Sungjae Lee, Jaeghang Choi, **Unho Choi**, Kyungyong Lee. Scalable Recommender System based on Serverless Computing, KSC 2020.
-    - 링크
         - [https://github.com/unhochoi/scalable-recommender-system-based-on-serverless-computing/blob/main/scalable-recommender-system-based-on-serverless-computing.pdf](https://github.com/unhochoi/scalable-recommender-system-based-on-serverless-computing/blob/main/scalable-recommender-system-based-on-serverless-computing.pdf)
 
 ---
@@ -175,3 +178,4 @@
 - **국민대학교 컴퓨터공학과 컴퓨터공학전공 석사 재학 (2021.03 ~ Current)**
     - 빅데이터 엔지니어링, 분산 처리, 클라우드 컴퓨팅, 머신러닝 연구
 - **국민대학교 소프트웨어학과 소프트웨어전공 학사 졸업 (2017.03 ~ 2021.02)**
+    - 개발 기반 과목 이수
