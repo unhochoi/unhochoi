@@ -82,6 +82,7 @@
     - **주사용기술**
         - Spark, Tensorflow, Docker, AWS (ECR, EMR, API Gateway, Lambda)
     - **링크**
+        - https://ddps-publications.s3.ap-northeast-1.amazonaws.com/dos-tbd.pdf
         - [https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE](https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE)
         - https://github.com/ddps-lab/dos
 
@@ -95,6 +96,7 @@
     - **주사용기술**
         - Linux, Docker, Kubernetes
     - **링크**
+        - [https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf](https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf)
         - [https://ieeexplore.ieee.org/document/9709001](https://ieeexplore.ieee.org/document/9709001)
         - https://github.com/unhochoi/edge-accelerator-monitor
 
@@ -150,9 +152,11 @@
 
 - **International**
     - **Unho Choi** and Kyungyong Lee, “Dense or Sparse : Elastic SPMM Implementation for Optimal Big-Data Processing”, IEEE Transactions on Big Data, NO. 1, AUGUST, 2022
+        - https://ddps-publications.s3.ap-northeast-1.amazonaws.com/dos-tbd.pdf
         - [https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE](https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE)
         - https://github.com/ddps-lab/dos
     - Jungae Park, **Unho Choi**, Seungwoo Kum, Jaewon Moon, and Kyungyong Lee, ‘Accelerator-Aware Kubernetes Scheduler for DNN Tasks on Edge Computing Environment’, The Sixth ACM/IEEE Symposium on Edge Computing (SEC 2021 Poster session)
+        - [https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf](https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf)
         - [https://ieeexplore.ieee.org/document/9709001](https://ieeexplore.ieee.org/document/9709001)
         - https://github.com/unhochoi/edge-accelerator-monitor
 
