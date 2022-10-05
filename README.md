@@ -45,7 +45,7 @@
 ### Experience
 
 - **국민대학교 분산 데이터 처리 시스템 연구실 연구 조교 (2020/02 ~ ing)**
-    - 빅데이터 엔지니어링, 분산 처리, 클라우드 컴퓨팅, 머신러닝 연구
+    - 빅데이터 엔지니어링, 분산 처리, 클라우드 컴퓨팅, 머신러닝 관련 연구 진행
 
 - **국민대학교 비이공계 학생 대상 프로그래밍 교육 조교 (2021/3 ~ 2022/06)**
     - 비이공계 학생을 대상으로 석사 과정 매 학기 프로그래밍 교육 수업 진행
@@ -55,8 +55,8 @@
 
 - **삼성전자 클라우드 아키텍트 특강 교육 조교 (2021/03 ~ 2021/05)**
     - 삼성 개발자분들을 대상으로 하는 3~5일간의 특강에 교육 조교로 참여
-    - 고가용성 및 확장성을 만족하는 클라우드 네이티브 딥러닝 추론 애플리케이션을 Classic, Container, Serverless 버전 별로 개발
-    - 실습 보조 및 질문 처리
+        - 고가용성 및 확장성을 만족하는 클라우드 네이티브 딥러닝 추론 애플리케이션을 Classic, Container, Serverless 버전 별로 개발
+        - 실습 보조 및 질문 처리
 
 - **고부기엔터테이먼트 인턴 (2019/12 ~ 2020/02)**
     - 프론트 엔드 개발, 서비스 유지보수, 신규 서비스 기획, 서비스 QA
@@ -85,35 +85,6 @@
         - https://ddps-publications.s3.ap-northeast-1.amazonaws.com/dos-tbd.pdf
         - [https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE](https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE)
         - https://github.com/ddps-lab/dos
-
-- **엣지 가속기 모니터링 시스템 (2021/07 ~ 2021/12)**
-    - **목표**
-        - Kubernetes Cluster 의 Worker Node 들이 사용하는 가속기들에 대한 정보를, Cluster 사용자에게 자동으로 제공하는 서비스 구현
-    - **기여 내용**
-        - 엣지 가속기(NVIDIA Jetson TX1, TX2, Nano, Xavier, Google Edge TPU) 별 하드웨어 세부 정보를 추출 및 전처리하는 컨테이너 이미지 구현
-    - **결과**
-        - "Accelerator-Aware Kubernetes Scheduler for DNN Tasks on Edge Computing Environment"라는 논문으로 발전하여, The Sixth ACM/IEEE Symposium on Edge Computing (SEC 2021 Poster session)에 게재함
-    - **주사용기술**
-        - Linux, Docker, Kubernetes
-    - **링크**
-        - [https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf](https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf)
-        - [https://ieeexplore.ieee.org/document/9709001](https://ieeexplore.ieee.org/document/9709001)
-        - https://github.com/unhochoi/edge-accelerator-monitor
-
-- **클라우드 기반의 딥러닝 추론 애플리케이션 (2021/03 ~ 2021/05)**
-    - **목표**
-        - 삼성에서 진행하는 클라우드 아키텍트 특강의 교육 조교로 참여함으로써, 수강생분들의 실습 환경을 구축하기 위해, 고가용성 및 확장성을 만족하는 클라우드 네이티브 딥러닝 추론 애플리케이션을 Classic, Container, Serverless 버전 별로 구현
-    - **기여 내용**
-        - Cloudformation을 사용해 VPC, Subnet, Internet Gateway, Route Table, NAT Gateway 를 구성함으로써, 실습 환경 자동화
-        - Flask 와 딥러닝 모델을 사용한 간단한 이미지 분류 애플리케이션을 Classic, Container, Serverless 버전 별로 구현
-            - Classic 버전의 딥러닝 추론 애플리케이션은, EC2, Load Balancer, Auto Scaling을 사용해 구현
-            - Container 버전의 딥러닝 추론 애플리케이션은, ECR, ECS, Load Balancer를 사용해 구현
-            - Serverless 버전의 딥러닝 추론 애플리케이션은, S3, API Gateway, Lambda, EFS를 사용해 구현
-        - 버전 별 애플리케이션의 대규모 트래픽 처리 성능을 확인하기 위해, 오픈소스 로드테스트 툴인 Locust를 사용하여, 로드테스트 애플리케이션을 구현
-    - **결과**
-        - 해당 애플리케이션을 기반으로 클라우드 아키텍트 특강을 성공적으로 마침
-    - **주사용기술**
-        - Docker, Tensorflow, AWS (EC2, Cloudformation, ECR, ECS, API Gateway, Lambda, EFS)
 
 - **서버리스 기반의 확장 가능한 추천 시스템 (2020/09 ~ 2020/12)**
     - **목표**
@@ -145,6 +116,35 @@
         - ELK, Django, Tensorflow
     - **링크**
         - https://github.com/unhochoi/capstone-2020-7
+
+- **엣지 가속기 모니터링 시스템 (2021/07 ~ 2021/12)**
+    - **목표**
+        - Kubernetes Cluster 의 Worker Node 들이 사용하는 가속기들에 대한 정보를, Cluster 사용자에게 자동으로 제공하는 서비스 구현
+    - **기여 내용**
+        - 엣지 가속기(NVIDIA Jetson TX1, TX2, Nano, Xavier, Google Edge TPU) 별 하드웨어 세부 정보를 추출 및 전처리하는 컨테이너 이미지 구현
+    - **결과**
+        - "Accelerator-Aware Kubernetes Scheduler for DNN Tasks on Edge Computing Environment"라는 논문으로 발전하여, The Sixth ACM/IEEE Symposium on Edge Computing (SEC 2021 Poster session)에 게재함
+    - **주사용기술**
+        - Linux, Docker, Kubernetes
+    - **링크**
+        - [https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf](https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf)
+        - [https://ieeexplore.ieee.org/document/9709001](https://ieeexplore.ieee.org/document/9709001)
+        - https://github.com/unhochoi/edge-accelerator-monitor
+
+- **클라우드 기반의 딥러닝 추론 애플리케이션 (2021/03 ~ 2021/05)**
+    - **목표**
+        - 삼성에서 진행하는 클라우드 아키텍트 특강의 교육 조교로 참여함으로써, 수강생분들의 실습 환경을 구축하기 위해, 고가용성 및 확장성을 만족하는 클라우드 네이티브 딥러닝 추론 애플리케이션을 Classic, Container, Serverless 버전 별로 구현
+    - **기여 내용**
+        - Cloudformation을 사용해 VPC, Subnet, Internet Gateway, Route Table, NAT Gateway 를 구성함으로써, 실습 환경 자동화
+        - Flask 와 딥러닝 모델을 사용한 간단한 이미지 분류 애플리케이션을 Classic, Container, Serverless 버전 별로 구현
+            - Classic 버전의 딥러닝 추론 애플리케이션은, EC2, Load Balancer, Auto Scaling을 사용해 구현
+            - Container 버전의 딥러닝 추론 애플리케이션은, ECR, ECS, Load Balancer를 사용해 구현
+            - Serverless 버전의 딥러닝 추론 애플리케이션은, S3, API Gateway, Lambda, EFS를 사용해 구현
+        - 버전 별 애플리케이션의 대규모 트래픽 처리 성능을 확인하기 위해, 오픈소스 로드테스트 툴인 Locust를 사용하여, 로드테스트 애플리케이션을 구현
+    - **결과**
+        - 해당 애플리케이션을 기반으로 클라우드 아키텍트 특강을 성공적으로 마침
+    - **주사용기술**
+        - Docker, Tensorflow, AWS (EC2, Cloudformation, ECR, ECS, API Gateway, Lambda, EFS)
 
 ---
 
