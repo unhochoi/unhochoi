@@ -86,50 +86,19 @@
         - [https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE](https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE)
         - https://github.com/ddps-lab/dos
 
-- **서버리스 기반의 확장 가능한 추천 시스템 (2020/09 ~ 2020/12)**
-    - **목표**
-        - 추천 시스템의 핵심이 되는 협업 필터링 알고리즘을 서버리스 컴퓨팅을 사용해 배포
-    - **기여 내용**
-        - 협업 필터링 알고리즘의 학습과 추론 단계 중, 추론 과정을 서버리스 환경으로 구현
-            - 사용자로부터 아이템에 대한 평점 정보를 1xn 의 벡터 형태로 전달받은 뒤, API Gateway를 사용해, 추론 작업을 진행하는 Lambda를 호출하여, 아이템에 대한 평점 정보를 전달
-            - 호출된 Lambda는, 전달받은 아이템 평점 정보와 S3에 저장되어 있는 아이템 유사도 행렬을 내적함으로써, 해당 사용자가 각각의 아이템에 대해 가지게 될 평가 점수를 나타내는 1xn 의 벡터를 산출
-            - 최종적으로, 해당 1xn 벡터에서 실제로 평가하지 않은 아이템 항목을 추출하여, 가장 평가 점수가 높을 것으로 예상되는 아이템을 k개 선정하여 반환
-            - 선정된 k개의 아이템은, 해당 사용자가 관심을 가질 가능성이 가장 높은 것으로 판단될 수 있으며, 이를 활용하여 개인 맞춤형 서비스 제공할 수 있음
-    - **결과**
-        - "서버리스 컴퓨팅 기반의 확장 가능한 추천 시스템”라는 논문으로 발전하여, 한국 정보과학회 학술발표 논문집(2020/12, 16-18, KIISE)에 게재함
-    - **주사용기술**
-        - AWS (CloudWatch, RDS, Lambda, S3, API Gateway)
-    - **링크**
-        - [https://github.com/unhochoi/scalable-recommender-system-based-on-serverless-computing/blob/main/scalable-recommender-system-based-on-serverless-computing.pdf](https://github.com/unhochoi/scalable-recommender-system-based-on-serverless-computing/blob/main/scalable-recommender-system-based-on-serverless-computing.pdf)
-
 - **이벤트 로그 분석 서비스 (2020/03 ~ 2020/06)**
     - **목표**
-        - 졸업 프로젝트로 진행하였으며, IPS 장비로부터 수집된 이벤트 로그를 분석하여, 보안 관제사에게 분석 결과를 시각적으로 제공하는 서비스를 구현
+        - IPS 장비로부터 수집된 이벤트 로그를 분석하여, 보안 관제사에게 분석 결과를 시각적으로 제공하는 서비스를 구현
     - **기여 내용**
-        - Logstash를 통해 IPS 장비로부터 수집된 로그 데이터를 Elasticsearch에 저장
-        - Elasticsearch에 저장되어 있는 로그 데이터를 딥러닝 추론 결과를 바탕으로 라벨링
-        - Kibana Dashboard를 통해 Elasticsearch 로그데이터 분석 및 시각화
-        - Kibana Dashboard를 Django 기반의 웹과 연동해, 데이터 분석 결과를 보안 관제사에게 시각적으로 제공
+        - IPS 장비로부터 수집된 로그 데이터를 Elasticsearch에 저장
+        - 딥러닝 추론 결과를 기반으로 Elasticsearch에 저장되어 있는 로그 데이터를 라벨링
+        - Kibana Dashboard를 통해 로그데이터 분석 및 시각화
     - **결과**
         - 해당 프로젝트는 성공적으로 마무리되었으나, 수상은 하지 못했음
     - **주사용기술**
         - ELK, Django, Tensorflow
     - **링크**
         - https://github.com/unhochoi/capstone-2020-7
-
-- **엣지 가속기 모니터링 시스템 (2021/07 ~ 2021/12)**
-    - **목표**
-        - Kubernetes Cluster 의 Worker Node 들이 사용하는 가속기들에 대한 정보를, Cluster 사용자에게 자동으로 제공하는 서비스 구현
-    - **기여 내용**
-        - 엣지 가속기(NVIDIA Jetson TX1, TX2, Nano, Xavier, Google Edge TPU) 별 하드웨어 세부 정보를 추출 및 전처리하는 컨테이너 이미지 구현
-    - **결과**
-        - "Accelerator-Aware Kubernetes Scheduler for DNN Tasks on Edge Computing Environment"라는 논문으로 발전하여, The Sixth ACM/IEEE Symposium on Edge Computing (SEC 2021 Poster session)에 게재함
-    - **주사용기술**
-        - Linux, Docker, Kubernetes
-    - **링크**
-        - [https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf](https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf)
-        - [https://ieeexplore.ieee.org/document/9709001](https://ieeexplore.ieee.org/document/9709001)
-        - https://github.com/unhochoi/edge-accelerator-monitor
 
 - **클라우드 기반의 딥러닝 추론 애플리케이션 (2021/03 ~ 2021/05)**
     - **목표**
@@ -145,6 +114,36 @@
         - 해당 애플리케이션을 기반으로 클라우드 아키텍트 특강을 성공적으로 마침
     - **주사용기술**
         - Docker, Tensorflow, AWS (EC2, Cloudformation, ECR, ECS, API Gateway, Lambda, EFS)
+
+- **서버리스 기반의 확장 가능한 추천 시스템 (2020/09 ~ 2020/12)**
+    - **목표**
+        - 서버리스 컴퓨팅을 기반으로 추천 시스템 배포
+    - **기여 내용**
+        - 협업 필터링 알고리즘의 학습과 추론 단계 중, 추론 과정을 서버리스 환경으로 구현
+            - 사용자로부터 아이템에 대한 평점 정보를 1xn 의 벡터 형태로 전달받은 뒤, API Gateway를 사용해, 추론 작업을 진행하는 Lambda를 호출하여, 아이템에 대한 평점 정보를 전달
+            - 호출된 Lambda는, 전달받은 아이템 평점 정보와 S3에 저장되어 있는 아이템 유사도 행렬을 내적함으로써, 해당 사용자가 각각의 아이템에 대해 가지게 될 평가 점수를 나타내는 1xn 의 벡터를 산출
+            - 최종적으로, 해당 1xn 벡터에서 실제로 평가하지 않은 아이템 항목을 추출하여, 가장 평가 점수가 높을 것으로 예상되는 아이템을 k개 선정하여 반환
+            - 선정된 k개의 아이템은, 해당 사용자가 관심을 가질 가능성이 가장 높은 것으로 판단될 수 있으며, 이를 활용하여 개인 맞춤형 서비스 제공할 수 있음
+    - **결과**
+        - "서버리스 컴퓨팅 기반의 확장 가능한 추천 시스템”라는 논문으로 발전하여, 한국 정보과학회 학술발표 논문집(2020/12, 16-18, KIISE)에 게재함
+    - **주사용기술**
+        - AWS (CloudWatch, RDS, Lambda, S3, API Gateway)
+    - **링크**
+        - [https://github.com/unhochoi/scalable-recommender-system-based-on-serverless-computing/blob/main/scalable-recommender-system-based-on-serverless-computing.pdf](https://github.com/unhochoi/scalable-recommender-system-based-on-serverless-computing/blob/main/scalable-recommender-system-based-on-serverless-computing.pdf)
+
+- **엣지 가속기 모니터링 시스템 (2021/07 ~ 2021/12)**
+    - **목표**
+        - Kubernetes Cluster 의 Worker Node 들이 사용하는 가속기들에 대한 정보를, Cluster 사용자에게 자동으로 제공하는 서비스 구현
+    - **기여 내용**
+        - 엣지 가속기(NVIDIA Jetson TX1, TX2, Nano, Xavier, Google Edge TPU) 별 하드웨어 세부 정보를 추출 및 전처리하는 컨테이너 이미지 구현
+    - **결과**
+        - "Accelerator-Aware Kubernetes Scheduler for DNN Tasks on Edge Computing Environment"라는 논문으로 발전하여, The Sixth ACM/IEEE Symposium on Edge Computing (SEC 2021 Poster session)에 게재함
+    - **주사용기술**
+        - Linux, Docker, Kubernetes
+    - **링크**
+        - [https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf](https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf)
+        - [https://ieeexplore.ieee.org/document/9709001](https://ieeexplore.ieee.org/document/9709001)
+        - https://github.com/unhochoi/edge-accelerator-monitor
 
 ---
 
