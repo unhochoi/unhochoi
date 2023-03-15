@@ -21,8 +21,17 @@
     - ELK Stack
 
 - **DevOps**
-    - Docker
-    - AWS (Cloudformation, Route 53, API Gateway, EC2, ECS, Lambda, EFS, S3)
+    - IaC
+        - Terraform, AWS Cloudformation
+    - Cluster
+        - Google Kubernetes Engine, Amazon ECS
+    - CI/CD
+        - Google Cloud Build, Google Cloud Run, Github Actions
+    - Serverless
+        - AWS Lambda
+    - ETC
+        - Nginx, Istio
+        - Kubernetes, Docker
 
 - **ETC**
     - Python, Shell Script, Json
@@ -31,7 +40,7 @@
 
 - **Tools & Collaboration**
     - Jupyter Notebook, Pycharm, Colab
-    - Vim, Atom, Visual Studio Code
+    - Vim, IntelliJ, Visual Studio Code
     - Jira, Slack, GitHub, Notion
 
 ---
@@ -50,12 +59,6 @@
 - **삼성전자 클라우드 아키텍트 특강 교육 조교 (2021/03 ~ 2021/05)**
     - 삼성 개발자분들을 대상으로 하는 3~5일간의 특강에 교육 조교로 참여
         - 고가용성 및 확장성을 만족하는 클라우드 네이티브 딥러닝 추론 애플리케이션을 Classic, Container, Serverless 버전 별로 개발
-
-- **고부기엔터테이먼트 인턴 (2019/12 ~ 2020/02)**
-    - 퓨어 프론트 엔드 개발
-
-- **위크앤데이 인턴 (2019/06 ~ 2019/08)**
-    - 퓨어 프론트 엔드 개발
 
 ---
 
@@ -168,7 +171,7 @@
 
 ### Education
 
-- **국민대학교 컴퓨터공학과 컴퓨터공학전공 석사 재학 (2021.03 ~ 2022.12)**
+- **국민대학교 컴퓨터공학과 컴퓨터공학전공 석사 졸업 (2021.03 ~ 2023.02)**
     - 빅데이터 엔지니어링, 분산 처리, 클라우드 컴퓨팅, 머신러닝 연구
 - **국민대학교 소프트웨어학과 소프트웨어전공 학사 졸업 (2017.03 ~ 2021.02)**
     - 개발 기반 과목 이수
