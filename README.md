@@ -7,9 +7,9 @@
 ### Contact & Channel
 
 - GMail : officialunho@gmail.com
-- GitHub : [https://github.com/unhochoi](https://github.com/unhochoi)
-- Tec Blog : [https://wooono.tistory.com/pages/About](https://wooono.tistory.com/pages/About)
-- LinkedIn : [https://www.linkedin.com/in/unho-choi-9593871b4/](https://www.linkedin.com/in/unho-choi-9593871b4/)
+- GitHub : https://github.com/unhochoi
+- Tec Blog : https://wooono.tistory.com/pages/About
+- LinkedIn : https://www.linkedin.com/in/unho-choi-9593871b4/
 
 ---
 
@@ -18,7 +18,6 @@
 - **Data**
     - Spark(Scala), Hadoop, AWS EMR
     - NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow
-    - ELK Stack
 
 - **DevOps**
     - IaC
@@ -26,16 +25,17 @@
     - Cluster
         - Google Kubernetes Engine, Amazon ECS
     - CI/CD
-        - Google Cloud Build, Google Cloud Run, Github Actions
+        - Google Cloud Build, Github Actions
     - Serverless
-        - AWS Lambda
+        - Cloud Functions, AWS Lambda
     - ETC
-        - Nginx, Istio
+        - Google Cloud Run
         - Kubernetes, Docker
+        - Nginx, Istio, Helm
 
 - **ETC**
-    - Python, Shell Script, Json
     - MySQL
+    - Python, Shell Script, Json
     - Frontend (HTML, CSS, JS)
 
 - **Tools & Collaboration**
@@ -79,7 +79,7 @@
         - Spark, Tensorflow, Docker, AWS (ECR, EMR, API Gateway, Lambda)
     - **링크**
         - https://ddps-publications.s3.ap-northeast-1.amazonaws.com/dos-tbd.pdf
-        - [https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE](https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE)
+        - https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE
         - https://github.com/ddps-lab/dos
 
 - **이벤트 로그 분석 서비스 (2020/03 ~ 2020/06)**
@@ -122,7 +122,7 @@
     - **주사용기술**
         - AWS (CloudWatch, RDS, Lambda, S3, API Gateway)
     - **링크**
-        - [https://github.com/unhochoi/scalable-recommender-system-based-on-serverless-computing/blob/main/scalable-recommender-system-based-on-serverless-computing.pdf](https://github.com/unhochoi/scalable-recommender-system-based-on-serverless-computing/blob/main/scalable-recommender-system-based-on-serverless-computing.pdf)
+        - https://github.com/unhochoi/scalable-recommender-system-based-on-serverless-computing/blob/main/scalable-recommender-system-based-on-serverless-computing.pdf
 
 - **엣지 가속기 모니터링 시스템 (2021/07 ~ 2021/12)**
     - **목표**
@@ -134,8 +134,8 @@
     - **주사용기술**
         - Linux, Docker
     - **링크**
-        - [https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf](https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf)
-        - [https://ieeexplore.ieee.org/document/9709001](https://ieeexplore.ieee.org/document/9709001)
+        - https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf
+        - https://ieeexplore.ieee.org/document/9709001
         - https://github.com/unhochoi/edge-accelerator-monitor
 
 ---
@@ -145,16 +145,16 @@
 - **International**
     - **Unho Choi** and Kyungyong Lee, “Dense or Sparse : Elastic SPMM Implementation for Optimal Big-Data Processing”, IEEE Transactions on Big Data, NO. 1, AUGUST, 2022
         - https://ddps-publications.s3.ap-northeast-1.amazonaws.com/dos-tbd.pdf
-        - [https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE](https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE)
+        - https://www.computer.org/csdl/journal/bd/5555/01/09858628/1FUYvtRM2gE
         - https://github.com/ddps-lab/dos
     - Jungae Park, **Unho Choi**, Seungwoo Kum, Jaewon Moon, and Kyungyong Lee, ‘Accelerator-Aware Kubernetes Scheduler for DNN Tasks on Edge Computing Environment’, The Sixth ACM/IEEE Symposium on Edge Computing (SEC 2021 Poster session)
-        - [https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf](https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf)
-        - [https://ieeexplore.ieee.org/document/9709001](https://ieeexplore.ieee.org/document/9709001)
+        - https://edge-k8s-project.s3.amazonaws.com/Accelerator-Aware+Kubernetes+Scheduler+for+DNN+Tasks+on+Edge+Computing+Environment.pdf
+        - https://ieeexplore.ieee.org/document/9709001
         - https://github.com/unhochoi/edge-accelerator-monitor
 
 - **Domestic**
     - Sungjae Lee, Jaeghang Choi, **Unho Choi**, Kyungyong Lee. Scalable Recommender System based on Serverless Computing, KSC 2020.
-        - [https://github.com/unhochoi/scalable-recommender-system-based-on-serverless-computing/blob/main/scalable-recommender-system-based-on-serverless-computing.pdf](https://github.com/unhochoi/scalable-recommender-system-based-on-serverless-computing/blob/main/scalable-recommender-system-based-on-serverless-computing.pdf)
+        - https://github.com/unhochoi/scalable-recommender-system-based-on-serverless-computing/blob/main/scalable-recommender-system-based-on-serverless-computing.pdf
 
 ---
 
