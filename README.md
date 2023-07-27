@@ -17,7 +17,7 @@
 
 - **Data**
     - Spark(Scala), Hadoop, AWS EMR
-    - NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow
+    - NumPy, Pandas, Scikit-learn, TensorFlow
 
 - **DevOps**
     - IaC
@@ -27,38 +27,33 @@
     - CI/CD
         - Google Cloud Build, Github Actions
     - Serverless
-        - Cloud Functions, AWS Lambda
+        - Google Cloud Functions, Google Cloud Run, AWS Lambda
+    - Monitoring
+        - Datadog
     - ETC
-        - Google Cloud Run
         - Kubernetes, Docker
         - Nginx, Istio, Helm
 
-- **ETC**
-    - MySQL
-    - Python, Shell Script, Json
-    - Frontend (HTML, CSS, JS)
-
 - **Tools & Collaboration**
-    - Jupyter Notebook, Pycharm, Colab
-    - Vim, IntelliJ, Visual Studio Code
+    - Pycharm, IntelliJ, Visual Studio Code
     - Jira, Slack, GitHub, Notion
 
 ---
 
 ### Experience
 
-- **국민대학교 분산 데이터 처리 시스템 연구실 연구 조교 (2020/02 ~ 2022/12)**
-    - 빅데이터 엔지니어링, 분산 처리, 클라우드 컴퓨팅, 머신러닝 관련 연구 진행
+- **삼성전자 클라우드 아키텍트 특강 교육 조교 (2021/03 ~ 2021/05)**
+    - 삼성 개발자분들을 대상으로 하는 3~5일간의 특강에 교육 조교로 참여
+        - 고가용성 및 확장성을 만족하는 클라우드 네이티브 딥러닝 추론 애플리케이션을 Classic, Container, Serverless 버전 별로 개발
 
-- **국민대학교 비이공계 학생 대상 프로그래밍 교육 조교 (2021/3 ~ 2022/06)**
+- **국민대학교 비이공계 학생 대상 프로그래밍 교육 조교 (2021/03 ~ 2022/06)**
     - 비이공계 학생을 대상으로 석사 과정 매 학기 프로그래밍 교육 수업 진행
         - 파이썬 기초 실습
         - 공공 데이터(COVID 19, etc)를 사용한 데이터분석 기초 실습
         - Teachable Machine 을 활용한 인공지능 기초 실습
 
-- **삼성전자 클라우드 아키텍트 특강 교육 조교 (2021/03 ~ 2021/05)**
-    - 삼성 개발자분들을 대상으로 하는 3~5일간의 특강에 교육 조교로 참여
-        - 고가용성 및 확장성을 만족하는 클라우드 네이티브 딥러닝 추론 애플리케이션을 Classic, Container, Serverless 버전 별로 개발
+- **국민대학교 분산 데이터 처리 시스템 연구실 연구 조교 (2020/02 ~ 2022/12)**
+    - 빅데이터 엔지니어링, 분산 처리, 클라우드 컴퓨팅, 머신러닝 관련 연구 진행
 
 ---
 
