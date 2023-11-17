@@ -18,6 +18,7 @@
 - **Data**
     - Spark(Scala), Hadoop, AWS EMR
     - NumPy, Pandas, Scikit-learn, TensorFlow
+    - Airflow, Google Cloud Composer
 
 - **DevOps**
     - IaC
@@ -28,26 +29,25 @@
         - Google Cloud Build, Github Actions
     - Serverless
         - Google Cloud Functions, Google Cloud Run, AWS Lambda
+    - Messaging Services
+        - Google Cloud Pub/Sub
     - Monitoring
-        - Datadog
+        - Datadog, Grafana
     - ETC
-        - Kubernetes, Docker
-        - Nginx, Istio, Helm
-
-- **Tools & Collaboration**
-    - Pycharm, IntelliJ, Visual Studio Code
-    - Jira, Slack, GitHub, Notion
+        - Docker, Kubernetes, Helm, Istio
 
 ---
 
 ### Experience
 
 - **엔라이튼 서비스인프라팀 매니저 - 전문연구요원 (2023/01 ~ ing)**
-    - Cloud Service IAM IaC 관리 - Terraform
-    - 사내 Backoffice 시스템 SSO 적용 - Keycloak
+    - Cloud Service IAM을 IaC로 관리 - Terraform
+    - 사내 Backoffice 시스템에 SSO 적용 - Keycloak
     - CI/CD 고도화 - Datadog Synthetic Test
-    - GKE Airflow 구축 및 운영 - Helm Chart
-    - AWS IoT Core, RTU 간 통신 단절 알고리즘 최적화 - Airflow
+    - Airflow 구축 및 운영 - Helm Chart
+    - RTU 통신 단절 판단 알고리즘 개선 - Airflow
+        - 인버터 OFF로 인한 RTU 통신 단절 오인을 개선
+    - Airflow Metric Monitoring Pipeline 구축 - StatsD Exporter, Prometheus, Grafana
 
 - **삼성전자 클라우드 아키텍트 특강 교육 조교 (2021/03 ~ 2021/05)**
     - 삼성 개발자분들을 대상으로 하는 3~5일간의 특강에 교육 조교로 참여
